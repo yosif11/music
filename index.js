@@ -7,4 +7,4 @@ app.use('/ping', (req, res) => {
   res.send(new Date());
 });
 var shell = require('shelljs'); 
-shell.exec('java -jar JMusicBot-0.2.9.jar')
+shell.exec('java -jar JMusicBot-0.2.10.jar')
